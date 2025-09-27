@@ -1,0 +1,69 @@
+body{
+    background-color: rgba(231, 222, 211, 0.455);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+.title h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    /* background-color: rgb(137, 43, 226); */
+    background-color: rgba(126, 113, 80, 0.852);
+}
+
+.task_container {
+    min-height: 10rem;
+    border: 1px black solid;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: antiquewhite;
+}
+
+.task_container .input_box textarea {
+    width: 100%;
+    height: 2rem;
+    max-width: 25rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+#plans_section {
+    margin-top: 1rem;
+    min-height: 5rem;
+    border: 1px black solid;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: antiquewhite;
+}
+
+#plans_section .each_task{
+    background-color: white;
+    color: black;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#plans_section_content button{
+    height: 2rem;
+    background-color: rgba(126, 113, 80, 0.852);
+    border: none;
+    color: white;
+
+}
+
+#task_btn{
+    border: none;
+    padding: 0.8rem 2rem;
+    background-color: rgba(126, 113, 80, 0.852);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    width: 100%;
+}
