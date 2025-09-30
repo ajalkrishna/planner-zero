@@ -29,7 +29,7 @@ function insertContent() {
     plansArray.forEach((each, index) => {
         displayContent += `
         <div class="each_task">
-               <h5>${index + 1}. ${each}</h5>
+               <h5 class="task_title">${index + 1}. ${each}</h5>
         <button id="delete_btn_${index}">Delete</button>
             </div>
         `
