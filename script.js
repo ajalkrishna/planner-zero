@@ -6,7 +6,7 @@ const nothingMsg = document.getElementById("nothing_msg");
 const plansArray = [];
 let idArray = []
 taskSubmitBtn.addEventListener('click', (event) => {
-    if (!newPlan.value?.trim() {
+    if (!newPlan.value?.trim()) {
         return
     }
     plansArray.push(newPlan.value)
